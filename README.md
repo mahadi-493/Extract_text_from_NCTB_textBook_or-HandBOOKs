@@ -32,22 +32,8 @@ This repository is designed for:
 
 ---
 
-## 📂 Repository Structure
-
-Extract_text_from_NCTB_textBook_or-HandBOOKs/
-│
-├── scripts/
-│   ├── ocr_pdf_to_csv_basic.py
-│   ├── ocr_pdf_to_csv_large_safe.py
-│
-├── sample_pdfs/
-├── requirements.txt
-├── README.md
-└── .gitignore
-
----
-
 ## 🛠 Requirements
+pip install pytesseract pdf2image pillow pandas regex
 
 ### System Dependencies (Ubuntu / Google Colab)
 
